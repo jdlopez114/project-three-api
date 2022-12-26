@@ -11,11 +11,11 @@ set :default_content_type, 'application/json'
 
   # POST: /reviews
   post "/reviews" do
-    # anime = Anime.find(params[:id])
+    anime = Anime.find(params[:id])
     reviews = Review.create(
       user_name: params[:user_name],
       comments: params[:comments],
-      # anime_id: params[:anime_id]
+      anime_id: anime
     )
     reviews.to_json
   end
@@ -28,11 +28,17 @@ set :default_content_type, 'application/json'
 
   # PATCH: /reviews/5
   patch "/reviews/:id" do
-    redirect "/reviews/:id"
+    review = Review.find(params[:id])
+    review.update(
+      user_name: params[:user_name],
+      comments: params[:comments]
+    )
   end
 
   # DELETE: /reviews/5/delete
-  delete "/reviews/:id/delete" do
-    redirect "/reviews"
+  delete "/reviews/:id" do
+    review = Review.find(params[:id])
+    review.destroy
+    review.to_json
   end
 end
