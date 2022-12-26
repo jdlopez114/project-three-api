@@ -1,3 +1,5 @@
+require './app/controllers/application_controller'
+
 class ReviewsController < ApplicationController
 set :default_content_type, 'application/json'
 
@@ -9,11 +11,11 @@ set :default_content_type, 'application/json'
 
   # POST: /reviews
   post "/reviews" do
-    
+    # anime = Anime.find(params[:id])
     reviews = Review.create(
       user_name: params[:user_name],
       comments: params[:comments],
-  
+      # anime_id: params[:anime_id]
     )
     reviews.to_json
   end
