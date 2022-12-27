@@ -5,7 +5,7 @@ class AnimesController < ApplicationController
   # GET: /animes
   get "/animes" do
     animes = Anime.all
-    animes.to_json
+    animes.to_json(include: :reviews)
   end
 
   # # POST: /animes
@@ -16,7 +16,7 @@ class AnimesController < ApplicationController
   # GET: /animes/5
   get "/animes/:id" do
     animes = Anime.find(params[:id])
-    animes.to_json(include :reviews)
+    animes.to_json(include: :reviews)
   end
 
   # # PATCH: /animes/5

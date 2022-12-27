@@ -1,23 +1,23 @@
 require './app/controllers/application_controller'
 
 class ReviewsController < ApplicationController
-set :default_content_type, 'application/json'
 
   # GET: /reviews
   get "/reviews" do
     reviews = Review.all
-    reviews.to_json
+    reviews.to_json(include: :anime)
   end
 
   # POST: /reviews
   post "/reviews" do
-    anime = Anime.find(params[:id])
+    
     reviews = Review.create(
       user_name: params[:user_name],
       comments: params[:comments],
-      anime_id: anime
+      anime_id: params[:anime_id]
     )
-    reviews.to_json
+    reviews.to_json(include: :anime)
+
   end
 
   # GET: /reviews/5
