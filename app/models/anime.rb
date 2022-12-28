@@ -1,4 +1,4 @@
 class Anime < ActiveRecord::Base
-    has_many :reviews, :foreign_key => 'anime_id'
+    has_many :reviews
 
 end

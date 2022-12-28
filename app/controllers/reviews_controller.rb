@@ -10,14 +10,12 @@ class ReviewsController < ApplicationController
 
   # POST: /reviews
   post "/reviews" do
-    
     reviews = Review.create(
       user_name: params[:user_name],
       comments: params[:comments],
       anime_id: params[:anime_id]
     )
-    reviews.to_json(include: :anime)
-
+    reviews.to_json
   end
 
   # GET: /reviews/5
@@ -33,6 +31,7 @@ class ReviewsController < ApplicationController
       user_name: params[:user_name],
       comments: params[:comments]
     )
+    review.to_json
   end
 
   # DELETE: /reviews/5/delete
