@@ -40,4 +40,5 @@ class ReviewsController < ApplicationController
     review.destroy
     review.to_json
   end
+  
 end
