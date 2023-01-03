@@ -10,14 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_18_012359) do
+ActiveRecord::Schema.define(version: 2023_01_03_000608) do
 
   create_table "animes", force: :cascade do |t|
     t.string "movie_name"
     t.integer "rank"
     t.integer "duration"
     t.integer "year"
-    t.string "character_of_the_day"
+    t.string "image_url"
   end
 
   create_table "reviews", force: :cascade do |t|
