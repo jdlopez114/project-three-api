@@ -203,7 +203,7 @@ Anime.create(
 
 60.times do
     Review.create(
-        comments: Faker::Lorem.paragraph(sentence_count: 2),
+        comments: Faker::Lorem.paragraph(sentence_count: 3),
         user_name: Faker::Name.name,
         anime_id: rand(1..23)
     )
