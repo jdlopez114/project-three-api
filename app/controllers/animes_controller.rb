@@ -5,7 +5,6 @@ class AnimesController < ApplicationController
   # GET: /animes
   get "/animes" do
     animes = Anime.all
-    # animes.order(rank: :asc)
     animes.to_json(include: :reviews)
   end
 

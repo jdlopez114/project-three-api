@@ -9,8 +9,8 @@ header {
 }
 
 h1 {
-	color: #AAA;
-	font-size: 36px;
+	color: #313131;
+	font-size: 40px;
 	font-weight: 400;
 	text-align: center;
 }
@@ -51,7 +51,7 @@ a {
 }
 
 a :hover {
-	background-color: #ff3c78;
+	background-color: #4169E1;
 	color: #fff;
 	border-radius: 10px;
 }
@@ -59,7 +59,7 @@ a :hover {
 .anime-list {
 	display: flex;
 	flex-wrap: wrap;
-	padding:20px;
+	padding: 20px;
 	margin-top: 32px;
 }
 
@@ -86,7 +86,7 @@ img {
 .review-section{
 	padding: 10px;
 	width: 100%;
-	max-width: 600px;
+	max-width: 1000px;
 }
   
 .review-form {
@@ -99,7 +99,7 @@ img {
 .review-form-input {
 	padding: 14px 32px 14px 16px;
 	border-radius: 5px;
-	border: 1px solid #ff3c78;
+	border: 1px solid #4169E1;
 	outline: 0;
 	width: 100%;
 	background-color: transparent;
@@ -114,7 +114,7 @@ img {
 	border-radius: 5px;
 	cursor: pointer;
 	outline: none;
-	background: #ff3c78;
+	background: #4169E1;
 	color: #fff;
 	text-transform: capitalize;
 	max-width: 200px;
@@ -126,13 +126,14 @@ img {
 .review-row {
 	display: flex;
 	justify-content: space-between;
-	border: 1px solid #ff3c78;
+	border: 1px solid #4169E1;
 	align-items: stretch;
 	margin: 15px auto;
 	background: transparent;
 	padding: 14px 32px 14px 16px;
 	border-radius: 5px;
 	width: 100%;
+	background-color: #F0F8FF;
 }
 
 .icons {

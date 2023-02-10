@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Header from "./Header";
-import { Routes, Route, useNavigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import NavBar from "./NavBar";
 import MainPage from "./MainPage";
 import ReviewPage from "./ReviewPage";

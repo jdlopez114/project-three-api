@@ -5,14 +5,14 @@ function NavBar() {
 
   const selected = {
     color: '#fff',
-    background: '#ff3c78',
+    background: '#4169E1',
     borderRadius: '22px',
     padding: '10px'
   }
 
   const notSelected ={ 
     color: '#fff',
-    background: '#AAA',
+    background: '#4169E1',
     borderRadius: '22px',
     padding: '10px'
   }

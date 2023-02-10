@@ -4,7 +4,7 @@ function Header() {
 
   return (
     <header>
-        <h1><strong>A</strong>nime <strong>R</strong>eviews</h1>
+        <h1><strong>Anime </strong><strong>Reviews</strong></h1>
     </header>
   )
 }
