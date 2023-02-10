@@ -1,0 +1,143 @@
+* {
+ 	font-family: 'Helvetica Neue', 'Open Sans', sans-serif;
+	 box-sizing: border-box;
+}
+
+header {
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+
+h1 {
+	color: #AAA;
+	font-size: 36px;
+	font-weight: 400;
+	text-align: center;
+}
+
+strong {
+ 	 color: #313131;
+}
+
+.content-wrap {
+	display: flex;
+}
+
+.review-page {
+	width: 100%;
+	display: flex;
+}
+
+.navbar {
+	height: 20px;
+	width: 70vw;
+	min-width: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: auto;
+}
+
+h3 {
+	color: #313131;
+	font-size: 24px;
+}
+
+a {
+	position: relative;
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+}
+
+a :hover {
+	background-color: #ff3c78;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.anime-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding:20px;
+	margin-top: 32px;
+}
+
+.anime-content{
+	width: 250px;
+	padding: 10px;
+	display: inline-block;
+}
+
+img {
+	display: block;
+	width: 220px;
+	height: 320px;
+	object-fit: cover;
+	border-radius: 10px;
+}			
+
+.anime-card {
+	width: 250px;
+	padding: 15px;
+	margin: 10px;
+}
+
+.review-section{
+	padding: 10px;
+	width: 100%;
+	max-width: 600px;
+}
+  
+.review-form {
+	margin-bottom: 50px;
+	background: transparent;
+	width: 100%;
+	display: inline-block;
+}
+  
+.review-form-input {
+	padding: 14px 32px 14px 16px;
+	border-radius: 5px;
+	border: 1px solid #ff3c78;
+	outline: 0;
+	width: 100%;
+	background-color: transparent;
+	margin: auto;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.add-review-button {
+	padding: 12px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	background: #ff3c78;
+	color: #fff;
+	text-transform: capitalize;
+	max-width: 200px;
+	width: 100%;
+	display: inline-block;
+	margin: auto;
+}
+
+.review-row {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #ff3c78;
+	align-items: stretch;
+	margin: 15px auto;
+	background: transparent;
+	padding: 14px 32px 14px 16px;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.icons {
+	display: flex;
+	font-size: 24px;
+	cursor: pointer;
+}
+
