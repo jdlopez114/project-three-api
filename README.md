@@ -10,10 +10,10 @@ Studio Ghibli is a world renowned Japanese animation studio best kwown for their
 ![Home](images/Home.png)
 
 * Check out some fun facts about your favorite Studio Ghibli film!
-![Anime-Info.png](Anime-Info.png)
+![Anime-Info.png](images/Anime-Info.png)
 
 * Leave a review on your favorite film!
-![Review](Review.png)
+![Review](images/Review.png)
 
 ### Requirements 
 * Functional Web Browser
