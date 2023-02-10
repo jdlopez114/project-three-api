@@ -2,7 +2,7 @@
 
 ## Overview
 
-Studio Ghibli is a world renowned Japanese animation studio best kwown for their animated feature films. Founded in 1985, this legendary studio has over 20 animated films included in their catalog and 5 have recieved Academy Award nominations. But don't take our word for it, check out what other viewers have to say! 
+Studio Ghibli is a world renowned Japanese animation studio best kwown for their beautiful and moving animated feature films. Founded in 1985, this legendary studio has over 20 animated films included in their catalog and has recieved 5 Academy Award nominations. But don't take our word for it, check out what other viewers have to say! 
 
 ## Features and How to Use
 
@@ -12,7 +12,7 @@ Studio Ghibli is a world renowned Japanese animation studio best kwown for their
 * Check out some fun facts about your favorite Studio Ghibli film!
 ![Anime-Info.png](images/Anime-Info.png)
 
-* Leave a review on your favorite film!
+* Leave a review!
 ![Review](images/Review.png)
 
 ### Requirements 
@@ -21,7 +21,7 @@ Studio Ghibli is a world renowned Japanese animation studio best kwown for their
 ### Installation Instructions 
 * Fork and clone
 
-# Inside the directory terminal 
+# In your terminal:
 * Run bundle install
 * Run npm install --prefix client
 * Run shotgun
